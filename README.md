@@ -1,1 +1,1 @@
-# koishi-plugin-send-as-image
+# koishi-plugin-change-to-image

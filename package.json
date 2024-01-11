@@ -1,0 +1,41 @@
+{
+  "name": "koishi-plugin-change-to-image",
+  "description": "将文字消息转成图片再发出",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "sheep2007 <3345168558@qq.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheep2007/koishi-plugin-change-to-image.git"
+  },
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "koishi": {
+    "description": {
+      "zh": "让Koishi机器人能够将过长的文本消息以图片发出。<br>（只会转换纯文本消息）",
+      "en": "Give Koishi the ability to send long text message as image.<br>(Only plain text messages are affected.)"
+    },
+    "service": {
+      "required": [
+        "puppeteer"
+      ]
+    }
+  },
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "image"
+  ],
+  "peerDependencies": {
+    "koishi": "^4.12.3",
+    "koishi-plugin-puppeteer": "^3.5.0"
+  }
+}

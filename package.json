@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-change-to-image",
   "description": "将文字消息转成图片再发出",
-  "version": "0.0.1",
+  "version": "0.0.13",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -35,7 +35,7 @@
     "image"
   ],
   "peerDependencies": {
-    "koishi": "^4.12.3",
-    "koishi-plugin-puppeteer": "^3.5.0"
+    "koishi": "^4.16.4",
+    "koishi-plugin-puppeteer": "^3.7.3"
   }
 }
